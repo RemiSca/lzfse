@@ -1,0 +1,15 @@
+Source: lzfse
+Maintainer: Remi Scalabrini <remi@remisca.fr>
+Section: libs
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: lzfse
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Reference C implementation of the LZFSE compressor.
+ LZFSE is a Lempel-Ziv style data compression algorithm using Finite State
+ Entropy coding. It targets similar compression rates at higher compression
+ and decompression speed compared to deflate using zlib.
+

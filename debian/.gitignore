@@ -1,0 +1,11 @@
+/*.debhelper
+/*.maintscript
+/*.substvars
+/debhelper-build-stamp
+/config.defines.dump
+/control.*
+/files
+/lzfse
+/rules.gen
+/tests/control
+
